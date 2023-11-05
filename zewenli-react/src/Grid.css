@@ -1,0 +1,15 @@
+.grid {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 2fr));
+    grid-template-rows: repeat(2, minmax(100px, 2fr));
+    
+}
+
+.header{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
